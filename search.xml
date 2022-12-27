@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>使用Netch代理Goose Goose Duck教程</title>
+      <link href="/2022/12/27/shi-yong-netch-dai-li-goose-goose-duck-jiao-cheng/"/>
+      <url>/2022/12/27/shi-yong-netch-dai-li-goose-goose-duck-jiao-cheng/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Netch是什么"><a href="#Netch是什么" class="headerlink" title="Netch是什么"></a>Netch是什么</h1><p>Netch 是一款运行在 Windows 系统上的开源游戏加速工具，简单易上手。也可以用于日常的网页浏览等。<br>Github 项目地址：<a href="https://github.com/NetchX/Netch">Netch</a></p><h2 id="特点："><a href="#特点：" class="headerlink" title="特点："></a>特点：</h2><ul><li>不同于 SSTap 那样需要通过添加规则来实现黑名单代理，Netch 原理更类似<a href="https://www.sockscap64.com/homepage/">Sockscap64</a>，通过扫描游戏目录获得需要代理的进程名进行代理。也可以实现 <a href="https://github.com/mayunbaba2/SSTap-beta-setup">SSTap</a> 那样的全局 TUN&#x2F;TAP 代理，和 <a href="https://github.com/shadowsocks/shadowsocks-windows">shadowsocks-windows</a> 那样的本地 Socks5，HTTP 和系统代理。</li><li>在日常网页浏览方面，可以进行分流设置。</li><li>支持的代理协议：Socks5 &#x2F; Shadowsocks &#x2F; ShadowsocksR &#x2F; Vmess &#x2F; Vless &#x2F; Trojan &#x2F; Wireguard</li><li>UDP NAT FullCone支持(需服务端Xray-core v1.3.0+)</li><li>指定进程加速</li></ul><h2 id="软件截图"><a href="#软件截图" class="headerlink" title="软件截图"></a>软件截图</h2><p><img src="https://www.helloimg.com/images/2022/12/27/oC5c2M.png" alt="Netch"></p><h1 id="Netch配置"><a href="#Netch配置" class="headerlink" title="Netch配置"></a>Netch配置</h1><p><strong>下载压缩包后进行<u><code>完整解压</code></u>，一定要解压出来再运行！随后双击运行主程序 Netch.exe</strong></p><h2 id="软件设置"><a href="#软件设置" class="headerlink" title="软件设置"></a>软件设置</h2><p>首先点击红框中的设置</p><p><img src="https://www.helloimg.com/images/2022/12/27/oC5NzR.png" alt="Netch0"></p><p>然后按照截图来配置即可</p><p><img src="https://www.helloimg.com/images/2022/12/27/oC57v5.png" alt="Netch1"><br><img src="https://www.helloimg.com/images/2022/12/27/oC5DY0.png" alt="Netch2"><br><img src="https://www.helloimg.com/images/2022/12/27/oC5wo6.png" alt="Netch3"><br><img src="https://www.helloimg.com/images/2022/12/27/oC5p5z.png" alt="Netch4"><br><img src="https://www.helloimg.com/images/2022/12/27/oC50in.png" alt="Netch5"><br><img src="https://www.helloimg.com/images/2022/12/27/oC5zsA.png" alt="Netch6"></p><h2 id="添加服务器"><a href="#添加服务器" class="headerlink" title="添加服务器"></a>添加服务器</h2><p>添加服务器的方式主要有三种：</p><ol><li>复制节点链接后从剪贴板导入</li><li>手动填写服务器配置</li><li>从订阅链接导入</li></ol><p>这里仅对订阅做出说明。请先复制好自己的机场订阅链接再阅读接下来的步骤。</p><hr><p>点击<code>订阅</code> - <code>管理订阅</code><br><img src="https://www.helloimg.com/images/2022/12/27/oC5fsK.png" alt="Netch7"></p><p>在这里输入你订阅的机场链接，备注可以自行填写。点击添加。</p><p><img src="https://www.helloimg.com/images/2022/12/27/oCBRnt.png" alt="Netch8"></p><p>随后在订阅处点击更新服务器即可看到你的节点。</p><p><img src="https://www.helloimg.com/images/2022/12/27/oC5jfo.png" alt="Netch9"></p><p>在节点列表选择一个节点。节点后方的数字为延迟。</p><p><img src="https://www.helloimg.com/images/2022/12/27/oC5hvb.png" alt="Netch10"></p><p>选择自己需要的代理模式。这里我已经将<a href="https://pan.baidu.com/s/1i5aSKPAJUnNpOoZUe-hv-Q?pwd=SOFI">Goose Goose Duck的配置文件</a>设置好了，可以直接下载并放进<code>Netch/mode/Custom</code>文件夹中来直接使用。<br>放至如图所示的位置：</p><p><img src="https://www.helloimg.com/images/2022/12/27/oCB5TS.png" alt="explorer"></p><p>点击<code>模式</code> - <code>重新加载模式</code>，你就能在模式这一栏的底部看见<code>[1]鹅鸭杀</code>了。选中后点击右下角的启动按钮测试是否可以正常启动代理。</p><p>启动成功后的 Netch底部 如下图所示：</p><p><img src="https://www.helloimg.com/images/2022/12/27/oCBGFQ.png" alt="Netch11"></p><h2 id="Netch配置完成！"><a href="#Netch配置完成！" class="headerlink" title="Netch配置完成！"></a>Netch配置完成！</h2><p>至此，Netch代理的配置部分完成了！但此时还没结束，我们需要设置一下系统的网络设置，否则登录时会出现异常。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Goose Goose Duck </tag>
+            
+            <tag> Netch </tag>
+            
+            <tag> 技术 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇测试用博客</title>
       <link href="/2022/12/09/di-yi-pian-ce-shi-yong-bo-ke/"/>
       <url>/2022/12/09/di-yi-pian-ce-shi-yong-bo-ke/</url>
