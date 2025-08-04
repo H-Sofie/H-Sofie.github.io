@@ -14,7 +14,7 @@ img {
 }
 
 /*所有页面实现毛玻璃特效*/
-#aside-content{
+#aside-content {
     background: rgba(255,255,255,0);
 }
 
@@ -33,7 +33,7 @@ img {
     backdrop-filter: blur(10px);
 }
 
-#recent-posts > .recent-post-item {
+#recent-posts > .recent-post-items > .recent-post-item {
     background: rgba(255,255,255,0.5);
     backdrop-filter: blur(10px);
 }
